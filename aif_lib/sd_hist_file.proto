@@ -1,0 +1,32 @@
+//  This file is part of the program: Processor Modeling Tool (PMT).
+//
+//  PMT is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  PMT is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with PMT.  If not, see <http://www.gnu.org/licenses/>.
+//
+//  Authors: Sam Van den Steen, Ghent University
+//  Copyright: 2016, Ghent University
+
+syntax = "proto3";
+package sd_hist;
+
+message sd_hist{
+  // ID can be both a burst or a PC (in case of a nested dictionary)
+  uint64 id = 1;
+  repeated uint64 sd = 2;
+  repeated uint64 count = 3;
+}
+
+message sd_PC_hist{
+  uint64 burst_id = 1;
+  repeated sd_hist sd_hists = 2;
+}

@@ -1,0 +1,173 @@
+Benchmark: astar
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 14.78
+
+Benchmark: bwaves
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 4.21
+
+Benchmark: bzip2
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 11.97
+
+Benchmark: cactusADM
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 0.00
+
+Benchmark: calculix
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 1.91
+
+Benchmark: dealII
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 8.21
+
+Benchmark: gamess
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 4.10
+
+Benchmark: gcc
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 10.46
+
+Benchmark: GemsFDTD
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 0.01
+
+Benchmark: gobmk
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 15.20
+
+Benchmark: gromacs
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 12.54
+
+Benchmark: h264ref
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 3.93
+
+Benchmark: hmmer
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 0.48
+
+Benchmark: lbm
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 1.72
+
+Benchmark: leslie3d
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 0.13
+
+Benchmark: libquantum
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 4.73
+
+Benchmark: mcf
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 9.25
+
+Benchmark: milc
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 3.06
+
+Benchmark: namd
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 3.75
+
+Benchmark: omnetpp
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 6.12
+
+Benchmark: perlbench
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 4.60
+
+Benchmark: povray
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 6.48
+
+Benchmark: sjeng
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 11.60
+
+Benchmark: soplex
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 7.76
+
+Benchmark: sphinx3
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 2.21
+
+Benchmark: tonto
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 3.18
+
+Benchmark: wrf
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 2.00
+
+Benchmark: xalancbmk
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 3.28
+
+Benchmark: zeusmp
+Type (l,g,t): t
+IP (bits): 9
+BHR (bits): 6
+Missrate (%): 0.83
