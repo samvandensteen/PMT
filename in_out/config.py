@@ -103,8 +103,8 @@ class Config:
         f_config = open(os.path.join(self.output_dir, "used_config.cfg"), "a+")
         for structure,pv in self.config.iteritems():
             f_config.write("[" + str(structure) + "]\n")
-        for parameter,value in pv.iteritems():
-            f_config.write(parameter + " = " + self.config[structure][parameter] + "\n")
+            for parameter,value in pv.iteritems():
+                f_config.write(parameter + " = " + self.config[structure][parameter] + "\n")
             f_config.write("\n")
         f_config.close()
 
